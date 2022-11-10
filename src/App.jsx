@@ -8,10 +8,10 @@ import { ClipLoader } from 'react-spinners';
 function App() {
 
   // 변수
-  const [loading, setLoading] = useState(false);  // 로딩 스피너
+  const [loading, setLoading] = useState(false);                // 로딩 스피너
   const cities = [null, "Paris", "New York", "Tokyo", "Seoul"]; // 도시 목록
-  const [city, setCity] = useState(null);         // 도시
-  const [weather, setWeather] = useState(null);   // 날씨 DB
+  const [city, setCity] = useState(null);                       // 도시
+  const [weather, setWeather] = useState(null);                 // 날씨 DB
 
   // 함수
   const weatherDB = () => { // 도시 버튼 클릭
