@@ -1,5 +1,6 @@
 ## Install
-- npx create-react-app --template typescript .
+- npx create-react-app --template typescript .  // 타입스크립트 템플릿
+- npm install react-bootstrap bootstrap         // 부트스트랩
 
 ## API
 - https://openweathermap.org/api
