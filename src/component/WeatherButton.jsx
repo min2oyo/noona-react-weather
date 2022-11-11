@@ -7,7 +7,13 @@ const WeatherButton = ({ cities, city, setCity }) => {
     <>
       <div>
         {cities.map(item => (
-          <Button key={item} variant={item === city ? "dark" : "primary"} onClick={() => setCity(item)}>{item === null ? `Current Location` : item}</Button>
+          <Button
+            key={item}
+            variant={item === city ? "dark" : "primary"}
+            onClick={() => setCity(item)}
+          >
+            {item === null ? `Current Location` : item}
+          </Button>
         ))}
       </div>
     </>

@@ -15,7 +15,7 @@ function App() {
 
   // 함수
   const weatherDB = () => { // 도시 버튼 클릭
-    navigator.geolocation.getCurrentPosition(async (position) => {
+    navigator.geolocation.getCurrentPosition(async position => {
       setLoading(true);
       let lat = position.coords.latitude;   // 위도
       let lon = position.coords.longitude;  // 경도
